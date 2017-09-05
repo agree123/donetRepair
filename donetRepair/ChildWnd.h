@@ -1,4 +1,5 @@
 #pragma once
+//弹出子窗口显示
 class ChildWnd : public WindowImplBase
 {
 public:
