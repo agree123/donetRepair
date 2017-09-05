@@ -1,0 +1,24 @@
+{
+    "files": [
+        {
+            "game": "abc",
+            "caption": "123",
+            "downloadurl": "http:",
+            "downloadfilename": "hello",
+            "size": "1234567",
+            "downloadsize": "09887766",
+            "status": "stop",
+            "speed": "1"
+        },
+        {
+            "game": "bnm",
+            "caption": "789",
+            "downloadurl": "ftp:",
+            "downloadfilename": "world",
+            "size": "1234567",
+            "downloadsize": "09887766",
+            "status": "stop",
+            "speed": "2"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="536,355" caption="0,0,100,30" roundcorner="5,5" bktrans="true">
+    <Font name="微软雅黑" id = "0" size="18" bold="false" italic="false" />
+    <Font name="微软雅黑" id = "1" size="24" bold="false" italic="false" />
+    <VerticalLayout bkimage="bg.png">
+        <VerticalLayout float="true" pos="0,0,0,0" width="536" height="355">
+            <HorizontalLayout width="535" height="50">
+		<Label name="LabelUI1" float="true" pos="5,5,0,0" width="30" height="30" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="数据恢复软件启动器" float="true" pos="50,10,0,0" width="120" height="20" textcolor="#00A0A0A4" disabledtextcolor="#FFA7A6AA"  />
+                <Button name="closebtn" width="30" height="30" tooltip="点击退出" float="true" visible="true" pos="500,5,0,0" normalimage="file='btn_close_1.png' mask='#FFFF00FF'" hotimage="file='btn_close_2.png' mask='#FFFF00FF'" pushedimage="file='btn_close_3.png' mask='#FFFF00FF'"/>
+            </HorizontalLayout>
+
+
+	    <HorizontalLayout width="535" height="255">
+                <Button name="firstBK1" float="true" pos="68,20,0,0" width="400" height="90" roundcorner="5,5" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" 
+			      normalimage="file='computer_un_1.png' dest='330,0,380,70' source='0,0,50,70' corner='0,0,0,0' mask='#FF0000' " hotimage="file='computer_un_2.png' dest='330,0,380,70' source='0,0,50,70' corner='0,0,0,0' mask='#FFFF00FF'" pushedimage="file='computer_un_3.png' dest='330,0,380,70' source='0,0,50,70' corner='0,0,0,0' mask='#FFFF00FF'"	/>
+                <Label name="computer_ico" float="true" pos="98,30,0,0" width="70" height="70" bkimage="ico_computer.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="computer_title" text="电脑数据恢复" float="true" pos="178,25,0,0" width="100" height="30" textcolor="#000080FF" disabledtextcolor="#FFA7A6AA" />
+		<Text name="computer_text" text="恢复硬盘，U盘，存储卡，分区丢失，格式化恢复等数据丢失" float="true" pos="178,60,0,0" width="179" height="30" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+                <Button name="computer_install" visible="false" pos="387,30,0,0" width="50" height="70" float="true" normalimage="file='computer_un_1.png' mask='#FFFF00FF'" hotimage="file='computer_un_2.png' mask='#FFFF00FF'" pushedimage="file='computer_un_3.png' mask='#FFFF00FF'"/>
+		<Button name="computer_run" visible="false" pos="387,30,0,0" width="50" height="70" float="true" normalimage="file='computer_run_1.png' mask='#FFFF00FF'" hotimage="file='computer_run_2.png' mask='#FFFF00FF'" pushedimage="file='computer_run_3.png' mask='#FFFF00FF'" disabledimage="file='computer_run_dis.png' mask='#FFFF00FF'"/>
+                <Progress visible="true" name="computer_pro" float="true" pos="280,35,0,0" width="80" height="8" bkimage="install_b.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="install_f.png" min="0" max="100" value="30" hor="true" />
+		
+		<Label name="firstBK2" float="true" pos="68,150,0,0" width="400" height="90" roundcorner="5,5 "bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="phone_ico" float="true" pos="98,160,0,0" width="70" height="70" bkimage="ico_phone.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="phone_title" text="手机数据恢复" float="true" pos="176,155,0,0" width="100" height="30" textcolor="#00008080" disabledtextcolor="#FFA7A6AA" />
+		<Text name="phone_text" text="手机照片，视频，通讯录，短信，通话记录，微信等的恢复" float="true" pos="176,190,0,0" width="185" height="30" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+		<Button name="phone_jump" visible="true" pos="387,160,0,0" width="50" height="70" float="true" normalimage="file='phone_jump_1.png' mask='#FFFF00FF'" hotimage="file='phone_jump_2.png' mask='#FFFF00FF'" pushedimage="file='phone_jump_3.png' mask='#FFFF00FF'"/>
+		
+		
+		<Label name="firstBK3" visible="false" float="true" pos="35,20,0,0" width="470" height="250" roundcorner="5,5" bkcolor="#FFFFFFFF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label name="choose_text" visible="false" text="请选择需要恢复的手机类型" font = "1" float="true" pos="127,40,0,0" width="300" height="30" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+	    	<Label name="iphone_pic" visible="false" float="true" pos="115,70,0,0" width="158" height="178" bkimage="pic_iphone.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="android_pic" visible="false" float="true" pos="275,70,0,0" width="158" height="178" bkimage="pic_android.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+ 		<Label name="iphone_tip" visible="false" font = "0" text="苹果手机恢复" float="true" pos="143,180,0,0" width="120" height="20" textcolor="#00A0A0A4" disabledtextcolor="#FFA7A6AA"  />
+		<Label name="android_tip" visible="false" font = "0" text="安卓手机恢复" float="true" pos="303,180,0,0" width="120" height="20" textcolor="#00A0A0A4" disabledtextcolor="#FFA7A6AA"  />
+		<Progress visible="false" name="iphone_pro" float="true" pos="156,210,0,0" width="80" height="8" bkimage="install_b.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="install_f.png" min="0" max="100" value="30" hor="true" />
+		<Progress visible="false" name="android_pro" float="true" pos="316,210,0,0" width="80" height="8" bkimage="install_b.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="install_f.png" min="0" max="100" value="30" hor="true" />
+		<Button name="iphone_install" visible="false" pos="156,210,0,0" width="80" height="20" float="true" normalimage="file='iphone_1.png' mask='#FFFF00FF'" hotimage="file='iphone_2.png' mask='#FFFF00FF'" pushedimage="file='iphone_3.png' mask='#FFFF00FF'"/>
+		<Button name="android_install" visible="false" pos="316,210,0,0" width="80" height="20" float="true" normalimage="file='android_1.png' mask='#FFFF00FF'" hotimage="file='android_2.png' mask='#FFFF00FF'" pushedimage="file='android_3.png' mask='#FFFF00FF'"/>
+		<Button name="iphone_run" visible="false" pos="156,210,0,0" width="80" height="20" float="true" normalimage="file='iphone_run_1.png' mask='#FFFF00FF'" hotimage="file='iphone_run_2.png' mask='#FFFF00FF'" pushedimage="file='iphone_run_3.png' mask='#FFFF00FF'"/>
+		<Button name="android_run" visible="false" pos="316,210,0,0" width="80" height="20" float="true" normalimage="file='android_run_1.png' mask='#FFFF00FF'" hotimage="file='android_run_2.png' mask='#FFFF00FF'" pushedimage="file='android_run_3.png' mask='#FFFF00FF'"/>
+		
+	    </HorizontalLayout>
+
+	    <HorizontalLayout width="535" height="50">
+		<Label name="qq_ico" float="true" pos="120,20,0,0" width="14" height="14" bkimage="qq_ico.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="qq" text="客服:4000076365" float="true" pos="138,18,0,0" width="100" height="20" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+		<Label name="tel_ico" float="true" pos="250,20,0,0" width="14" height="14" bkimage="tel_ico.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		<Label name="tel" text="热线:4000076365" float="true" pos="268,18,0,0" width="100" height="20" textpadding="2,0,2,0" textcolor="#00808080" disabledtextcolor="#FFA7A6AA" align="wrap" />
+		<Button name="return" visible="false" text="{u}&lt;&lt;返回{/u}" float="true" pos="450,15,0,0" width="60" height="30" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" showhtml="true" align="center" />		
+
+	    </HorizontalLayout>
+
+
+        </VerticalLayout>
+
+
+    </VerticalLayout>
+</Window>

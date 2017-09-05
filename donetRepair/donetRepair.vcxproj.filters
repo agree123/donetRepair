@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="donetRepair.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildWnd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="EasyLog.cpp" />
+    <ClCompile Include="Ping.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="donetRepair.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildWnd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="EasyLog.h" />
+    <ClInclude Include="Ping.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>res</Filter>
+    </None>
+    <None Include="donetRepair.ico">
+      <Filter>res</Filter>
+    </None>
+    <None Include="Res\donetRepair.zip" />
+    <None Include="res\zipLib.exe" />
+    <None Include="Res\FileDown.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{eb5a3c13-c996-4bb4-a06a-c94dd06fae54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{f14fb386-3b7b-48f7-8cbe-fd9b46f53bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{3972a736-7b47-469c-9d39-aac80818e23a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\logo.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DuiLib.lib">
+      <Filter>res</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="donetRepair.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

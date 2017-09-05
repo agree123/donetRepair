@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>  
+<Window size="270,180" caption="0,0,100,38" roundcorner="5,5" bktrans="true" showshadow="true" shadowsize="3" shadowposition="1,1" shadowcolor="#333333">  
+	<Font name="微软雅黑" id = "0" size="14" bold="false" italic="false" />
+        <Font name="微软雅黑" id = "1" size="24" bold="false" italic="false" />
+        <Font name="微软雅黑" id = "2" size="16" bold="false" italic="false" />
+        <Font name="微软雅黑" id = "3" size="14" bold="true" italic="false" />
+        <Font name="微软雅黑" id = "4" size="12" bold="false" italic="false" />
+	<VerticalLayout bkcolor = "#FFFFFFFF">
+		<Button name="btnClose" width="25" height="25" tooltip="点击退出" float="true" visible="true" pos="245,1,0,0" normalimage="file='guanbi1.png'" hotimage="file='guanbi2.png'" pushedimage="file='guanbi3.png'" />
+	        <Label name="labelLogo" float="true" pos="7,7,0,0" width="24" height="24" bkimage="logo_small.png" />
+                <Label name="topBkTip" text=".NET下载工具" font = "4" float="true" pos="32,11,0,0" width="150" height="17" textcolor="#FF238ffe" />
+
+                <Label name="firstLabell" visible="false" float="true" pos="115,37,0,0" width="38" height="38" bkimage="img_download.png" />
+                <Label name="firstLabel2" visible="false" float="true" font = "4" text="资源正在下载，确定关闭软件吗？" pos="45,96,0,0" width="268" height="20" textcolor="#33333333" />
+                <Button name="firstBtn1"  visible="false" pos="140,133,0,0" width="100" height="32" float="true" normalimage="file='guanbi-1.png'" hotimage="file='guanbi-2.png'" pushedimage="file='guanbi-3.png'"/>
+                <Button name="firstBtn2"  visible="false" pos="30,133,0,0" width="100" height="32" float="true" normalimage="file='continue1.png'" hotimage="file='continue2.png'" pushedimage="file='continue3.png'"/>
+
+                <Label name="secondLabell" visible="false" float="true" pos="115,33,0,0" width="38" height="38" bkimage="nofile.png" />
+                <Label name="secondLabel2" visible="false" float="true" font = "4" text="此文件不存在，可能被删除或者被" pos="45,87,0,0" width="268" height="20" textcolor="#33333333" />
+                <Label name="secondLabel3" visible="false" float="true" font = "4" text="移到其他位置" pos="95,105,0,0" width="268" height="20" textcolor="#33333333" />
+                <Button name="secondBtn1"  visible="false" pos="85,133,0,0" width="100" height="32" float="true" normalimage="file='queding1.png'" hotimage="file='queding2.png'" pushedimage="file='queding3.png'"/>
+	</VerticalLayout>
+</Window>  

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="720,520" caption="0,0,100,38" roundcorner="5,5">
+    <Font name="微软雅黑" size="14" bold="false" italic="false" />
+    <Font name="微软雅黑" size="24" bold="false" italic="false" />
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" size="14" bold="true" italic="false" />
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <VerticalLayout name="layout" bkimage="start.png">
+        <HorizontalLayout name="HorizontalLayoutUI1" width="720" height="520">
+            <Button name="btnNext" float="true" pos="278,287,0,0" width="168" height="48" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;next1.png&apos;" hotimage="file=&apos;next2.png&apos;" pushedimage="file=&apos;next3.png&apos;" />
+            <Label name="labelLogo" visible="false" float="true" pos="9,5,0,0" width="29" height="29" bkimage="logo.png" />
+            <Label name="topBkTip" text=".NET下载工具" visible="false" float="true" pos="46,12,0,0" width="150" height="17" textcolor="#FFFFFFFF" font="2" />
+            <Button name="minbtn" tooltip="最小化" float="true" pos="669,2,0,0" width="22" height="22" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_min_1.png&apos;" hotimage="file=&apos;btn_min_2.png&apos;" pushedimage="file=&apos;btn_min_3.png&apos;" />
+            <Button name="closebtn1" tooltip="点击退出" visible="false" float="true" pos="693,2,0,0" width="22" height="22" align="center" normalimage="file=&apos;close1.png&apos;" hotimage="file=&apos;close2.png&apos;" pushedimage="file=&apos;close3.png&apos;" />
+            <Button name="closebtn2" tooltip="点击退出" visible="false" float="true" pos="693,2,0,0" width="22" height="22" align="center" normalimage="file=&apos;btn_close_1.png&apos;" hotimage="file=&apos;btn_close_2.png&apos;" pushedimage="file=&apos;btn_close_3.png&apos;" />
+            <Label name="topTextBk" visible="false" float="true" pos="10,48,0,0" width="700" height="46" bkcolor="#FFEAEEF0" />
+            <Label name="topText1" text="版本" float="true" pos="85,64,0,0" width="29" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="3" />
+            <Label name="topText2" text="XP系统" float="true" pos="230,64,0,0" width="50" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="3" />
+            <Label name="topText3" text="详情介绍" float="true" pos="369,64,0,0" width="100" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="3" />
+            <Label name="topText4" text="操作" float="true" pos="561,64,0,0" width="31" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="3" />
+            <Label name="topSplit1" float="true" pos="8,133,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="topSplit2" float="true" pos="8,174,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="topSplit3" float="true" pos="8,215,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="topSplit4" float="true" pos="8,256,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="topSplit5" float="true" pos="8,297,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="topSplit6" float="true" pos="8,338,0,0" width="702" height="1" bkcolor="#FFE0E1E1" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="netText1" text=".NET 2.0" float="true" pos="80,109,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="netText2" text=".NET 3.0" float="true" pos="80,150,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="netText3" text=".NET 3.5" float="true" pos="80,191,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="netText4" text=".NET 4.0" float="true" pos="80,231,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="netText5" text=".NET 4.5" float="true" pos="80,273,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="netText6" text=".NET 4.6" float="true" pos="80,314,0,0" width="57" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText1" text="支持" float="true" pos="235,108,0,0" width="40" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText2" text="支持" float="true" pos="235,149,0,0" width="40" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText3" text="支持" float="true" pos="235,190,0,0" width="40" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText4" text="支持" float="true" pos="235,231,0,0" width="40" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText5" text="不支持" float="true" pos="235,272,0,0" width="45" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="sysText6" text="不支持" float="true" pos="235,313,0,0" width="45" height="15" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Button name="tipText1" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,111,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="tipText2" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,152,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="tipText3" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,193,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="tipText4" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,234,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="tipText5" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,275,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="tipText6" text="{u}了解详情&gt;&gt;&gt;{/u}" float="true" pos="369,316,0,0" width="100" height="15" textcolor="#FF0479F2" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" pushedtextcolor="#FF888888" hottextcolor="#FF0479F2" />
+            <Button name="btnDownload1" float="true" pos="630,101,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Button name="btnDownload2" float="true" pos="630,142,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Button name="btnDownload3" float="true" pos="507,183,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Button name="btnDownload4" float="true" pos="507,224,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Button name="btnDownload5" float="true" pos="564,265,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Button name="btnDownload6" float="true" pos="564,306,0,0" width="26" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;download1.png&apos;" hotimage="file=&apos;download2.png&apos;" pushedimage="file=&apos;download3.png&apos;" />
+            <Label name="tipLast1" float="true" pos="10,360,0,0" width="77" height="26" bkimage="tipLast.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="tipPeiTu" float="true" pos="317,397,0,0" width="392" height="114" bkimage="peitu.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="tipLast2" text="1. XP操作系统中,最高支持.NET 4.0" float="true" pos="38,401,0,0" width="371" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="4" />
+            <Label name="tipLast3" text="2. 下载的.NET安装包将为您保存在桌面,下载完后请手动安装" float="true" pos="38,422,0,0" width="371" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="4" />
+            <Label name="tipLast4" text="3. 请根据实际需要版本下载,推荐安装.NET 3.5和.NET 4.6" float="true" pos="38,443,0,0" width="371" height="13" textcolor="#FF333333" disabledtextcolor="#FFA7A6AA" font="4" />
+            <Progress name="proDownload1" visible="false" float="true" pos="521,119,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Progress name="proDownload2" visible="false" float="true" pos="521,160,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Progress name="proDownload3" visible="false" float="true" pos="521,201,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Progress name="proDownload4" visible="false" float="true" pos="521,242,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Progress name="proDownload5" visible="false" float="true" pos="521,283,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Progress name="proDownload6" visible="false" float="true" pos="521,324,0,0" width="111" height="5" bkimage="progress1.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progress2.png" min="0" max="100" value="30" hor="true" />
+            <Button name="openFile1" text="{u}打开文件{/u}" visible="false" float="true" pos="521,107,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openFile2" text="{u}打开文件{/u}" visible="false" float="true" pos="521,148,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openFile3" text="{u}打开文件{/u}" visible="false" float="true" pos="521,189,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openFile4" text="{u}打开文件{/u}" visible="false" float="true" pos="521,230,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openFile5" text="{u}打开文件{/u}" visible="false" float="true" pos="521,271,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openFile6" text="{u}打开文件{/u}" visible="false" float="true" pos="521,312,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir1" text="{u}打开目录{/u}" visible="false" float="true" pos="586,107,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir2" text="{u}打开目录{/u}" visible="false" float="true" pos="586,148,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir3" text="{u}打开目录{/u}" visible="false" float="true" pos="586,189,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir4" text="{u}打开目录{/u}" visible="false" float="true" pos="586,230,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir5" text="{u}打开目录{/u}" visible="false" float="true" pos="586,271,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Button name="openDir6" text="{u}打开目录{/u}" visible="false" float="true" pos="586,312,0,0" width="50" height="26" textcolor="#FF238FFE" font="4" showhtml="true" align="center" pushedtextcolor="#FF888888" hottextcolor="#FF238FFE" />
+            <Label name="labelSpeed1" visible="false" float="true" pos="580,103,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelSpeed2" visible="false" float="true" pos="580,144,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelSpeed3" visible="false" float="true" pos="580,186,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelSpeed4" visible="false" float="true" pos="580,228,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelSpeed5" visible="false" float="true" pos="580,268,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelSpeed6" visible="false" float="true" pos="580,310,0,0" width="50" height="16" textcolor="#FF888888" font="4" align="right" />
+            <Label name="labelOver1" visible="false" float="true" pos="552,103,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOver2" visible="false" float="true" pos="552,144,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOver3" visible="false" float="true" pos="552,186,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOver4" visible="false" float="true" pos="552,228,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOver5" visible="false" float="true" pos="552,268,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOver6" visible="false" float="true" pos="552,310,0,0" width="50" height="12" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic1" visible="false" float="true" pos="641,105,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic2" visible="false" float="true" pos="641,145,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic3" visible="false" float="true" pos="641,185,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic4" visible="false" float="true" pos="641,225,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic5" visible="false" float="true" pos="641,265,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelOverPic6" visible="false" float="true" pos="641,305,0,0" width="18" height="18" bkimage="over.png" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent1" visible="false" float="true" pos="539,103,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent2" visible="false" float="true" pos="539,144,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent3" visible="false" float="true" pos="539,186,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent4" visible="false" float="true" pos="539,228,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent5" visible="false" float="true" pos="539,268,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelPercent6" visible="false" float="true" pos="539,310,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund1" visible="false" float="true" pos="523,103,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund2" visible="false" float="true" pos="523,144,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund3" visible="false" float="true" pos="523,186,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund4" visible="false" float="true" pos="523,228,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund5" visible="false" float="true" pos="523,268,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelHund6" visible="false" float="true" pos="523,310,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec1" visible="false" float="true" pos="523,103,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec2" visible="false" float="true" pos="523,144,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec3" visible="false" float="true" pos="523,186,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec4" visible="false" float="true" pos="523,228,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec5" visible="false" float="true" pos="523,268,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelDec6" visible="false" float="true" pos="523,310,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit1" visible="false" float="true" pos="531,103,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit2" visible="false" float="true" pos="531,144,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit3" visible="false" float="true" pos="531,186,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit4" visible="false" float="true" pos="531,228,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit5" visible="false" float="true" pos="531,268,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Label name="labelUnit6" visible="false" float="true" pos="531,310,0,0" width="12" height="16" textcolor="#FF888888" font="4" />
+            <Button name="labelInstaller1" visible="false" float="true" pos="485,480,0,0" width="60" height="12" textcolor="#FF238FFE" disabledtextcolor="#FFA7A6AA" font="4" align="center" />
+            <Button name="labelInstaller2" visible="false" float="true" pos="555,480,0,0" width="60" height="12" textcolor="#FF238FFE" disabledtextcolor="#FFA7A6AA" font="4" align="center" />
+            <Button name="labelInstaller3" visible="false" float="true" pos="642,480,0,0" width="60" height="12" textcolor="#FF238FFE" disabledtextcolor="#FFA7A6AA" font="4" align="center" />
+            <Button name="CheckBox1" visible="false" float="true" pos="472,480,0,0" width="11" height="11" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="CheckBox2" visible="false" float="true" pos="540,480,0,0" width="11" height="11" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="CheckBox3" visible="false" float="true" pos="628,480,0,0" width="11" height="11" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
